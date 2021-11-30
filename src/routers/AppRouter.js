@@ -13,7 +13,7 @@ export const AppRouter = () => {
       <NavBar  setCategories = {setCategories}/>
       <div className="container">
       <Routes>
-        <Route path="/Lofi-Miusic-Cra" element={<Home  setCategories = {setCategories} Categories = {Categories}/>} />
+        <Route path="/" element={<Home  setCategories = {setCategories} Categories = {Categories}/>} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="search" element={<Search />} />
