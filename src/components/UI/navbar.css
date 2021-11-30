@@ -1,0 +1,53 @@
+
+    /* Navigacion */
+    .nav-main {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 50px 0;
+    }
+    
+    .nav-brand {   
+    width: 110px;
+    }
+    
+    /* Navbar Left */
+    .nav-main ul {
+    display: flex;
+    }
+    
+    .nav-main ul link:hover {
+    padding: 55px;
+    border-bottom: 2px solid #fff;
+    }
+    
+    .nav-main ul link a {
+    padding: 2px;
+    }
+    
+    .nav-main ul link a:hover {
+    border-bottom: 2px solid #fff;
+    }
+    
+    .nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+    }
+    
+    hr {
+    margin: 10px 0;
+    }
+    
+    /* Responsive Button */
+    .menu-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+    }
+    
+    
