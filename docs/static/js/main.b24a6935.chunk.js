@@ -130,7 +130,7 @@
             ],
           });
         },
-        h = c.p + "./static/media/showcase2.9ce7895a.jpg",
+        h = c.p + "Lofi-Miusic-Cra/static/media/showcase2.9ce7895a.jpg",
         O = c(13),
         m = c(9),
         x = c.n(m),
